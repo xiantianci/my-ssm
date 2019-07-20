@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.dropdown{
+     
+    background-color:#2a2017;
+    text-align:center;
+    padding:20px;
+    display:inline-block;
+    cursor:pointer;
+    position:relative;
+}
+.di{
+    display:none;
+    position:absolute;
+    top:61px;
+    left:0;
+}
+.di ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    background-color: #2a2017;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.di ul li{
+    min-width:104px;
+    padding:10px 15px;
+     
+}
+.dropdown:hover{
+    background-color:#2a2017
+}
+.dropdown:hover .di{
+    display:block;
+     
+}
+.di ul li:hover{
+    background-color: #f1f1f1
+}
